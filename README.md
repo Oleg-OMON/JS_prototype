@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/tsaweywqxb66c7ll?svg=true)](https://ci.appveyor.com/project/Oleg-OMON/js-prototype)
