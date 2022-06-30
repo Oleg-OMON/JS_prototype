@@ -24,7 +24,7 @@ export default function Character(name,type) {
         throw new Error("Ошибка! количество символов в имени от 2 до 10!");
     }
 
-    if (!typeHeroes.includes(type)) {
+    if (!typeHeroe.includes(type)) {
         throw new Error("Ошибка! Такой персонаж не существует!");
         }
 }   
