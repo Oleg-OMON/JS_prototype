@@ -5,7 +5,7 @@ import Swordsman from "../js/Swordsman";
 import Zombie from "../js/Zombie";
 
 test("Метод recovery повышает уровень на 1 и изменяет показатели health, attack, deffence", () => {
-  const recieved = new Magician("Valera", "Magician");
+  const recieved = new Magician("oleg", "Magician");
   recieved.recovery();
   expect(recieved).toEqual({
     name: "oleg",
@@ -18,7 +18,7 @@ test("Метод recovery повышает уровень на 1 и изменя
 });
 
 test("Метод recovery выбрасывает ошибку, если health = 0", () => {
-  const recieved = new Zombie("Lusie", "Zombie");
+  const recieved = new Zombie("Pangur", "Zombie");
   recieved.health = 0;
   expect(() => recieved.recovery()).toThrow(
     "Нельзя повысить уровень умершего!"
@@ -40,7 +40,7 @@ test("Метод destruction меняет внутреннее состояни�
 });
 
 test("Метод destruction не должен изменять значения, если health = 0", () => {
-  const recieved = new Swordsman("Stepan", "Swordsman");
+  const recieved = new Swordsman("Nastya", "Swordsman");
   recieved.health = 0;
   const result = {
     name: "Nastya",
