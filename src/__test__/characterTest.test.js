@@ -26,7 +26,7 @@ test("Метод recovery выбрасывает ошибку, если health =
 });
 
 test("Метод destruction меняет внутреннее состояние объекта(нанесение урона)", () => {
-  const recieved = new Bowerman("Lusie", "Bowman");
+  const recieved = new Bowerman("Pangur", "Bowman");
   recieved.destruction(1);
   const result = {
     name: "Pangur",
