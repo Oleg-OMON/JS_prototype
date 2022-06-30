@@ -34,7 +34,7 @@ Character.prototype.recovery = function levelUp() {
     if(this.health !== 0) {
         this.level += 1;
         this.attack *= 1.2;
-        this.defence *= 1.2;
+        this.deffence *= 1.2;
     }else {
         throw new Error("Нельзя повысить уровень умершего!");
         }
