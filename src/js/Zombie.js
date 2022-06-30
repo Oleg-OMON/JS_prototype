@@ -1,4 +1,4 @@
-import Character from "./character";
+import Character from "./Character";
 
 export default function Zombie(name, type) {
   Character.call(this, name, type);

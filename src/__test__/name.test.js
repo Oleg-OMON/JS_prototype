@@ -1,4 +1,4 @@
-import Character from "../js/character";
+import Character from "../js/Character";
 test("Количество символов в имени менее 2", () => {
     expect(() => {
       const result = new Character("x", "Daemon");
