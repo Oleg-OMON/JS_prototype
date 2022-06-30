@@ -1,4 +1,4 @@
-import Bowman from "../js/Bowman";
+import Bowerman from "../js/Bowerman";
 import Daemon from "../js/Daemon";
 import Magician from "../js/Magician";
 import Swordsman from "../js/Swordsman";
@@ -26,7 +26,7 @@ test("Метод recovery выбрасывает ошибку, если health =
 });
 
 test("Метод destruction меняет внутреннее состояние объекта(нанесение урона)", () => {
-  const recieved = new Bowman("Lusie", "Bowman");
+  const recieved = new Bowerman("Lusie", "Bowman");
   recieved.destruction(1);
   const result = {
     name: "Pangur",
